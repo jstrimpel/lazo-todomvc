@@ -25,10 +25,14 @@
   },
   "github": "https://github.com/lazojs/todomvc",
   "dependencies": {
-    "lazo": "2.2.3-alpha"
+    "lazo": "2.4.0-alpha"
+  },
+  "devDependencies": {
+    "gulp-babel": "5.x.x"
   },
   "scripts": {
-    "start": "lazo start ."
+    "start": "lazo start dist",
+    "build": "gulp"
   },
   "maintainers": [
     {

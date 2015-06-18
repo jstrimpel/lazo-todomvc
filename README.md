@@ -50,7 +50,14 @@ Install dependencies (from local lazo-todomvc repo):
 
 ```shell
 npm install
+bower install
 ```
+
+Build the application
+```shell
+npm run build
+```
+
 
 Finally start the new application (from local lazo-todomvc repo):
 
